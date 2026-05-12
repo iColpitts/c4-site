@@ -27,10 +27,10 @@ const getRandomSpeed = (min: number, max: number) => {
 };
 
 const letters = [
-  { name: 'C', src: letterC, floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
-  { name: '4', src: letter4, floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
+  { name: 'C', src: letterC, floatSpeed: getRandomSpeed(4, 6), rotateSpeed: getRandomSpeed(0.8, 1) },
+  { name: '4', src: letter4, floatSpeed: getRandomSpeed(6, 10), rotateSpeed: getRandomSpeed(0.5, 0.6) },
   { name: 'A', src: letterA, floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
-  { name: 'G', src: letterG, floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
+  { name: 'G', src: letterG, floatSpeed: getRandomSpeed(1, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
 ];
 </script>
 
@@ -59,7 +59,7 @@ const letters = [
     transform: translateY(0px);
   }
   50% {
-    transform: translateY(-10px);
+    transform: translateY(-50px);
   }
 }
 
