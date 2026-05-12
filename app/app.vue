@@ -1,6 +1,7 @@
 <template>
   <div class="page-content">
-     <PageSection title="C4 Art Games" subtitle="The Conference for Art Games is a celebration of the weird and wonderful possibility at the intersection of art and games!">
+    <C4Logo />
+     <PageSection subtitle="The Conference for Art Games is a celebration of the weird and wonderful possibility at the intersection of art and games!">
         <h3>Conference</h3>
         <p>Date: September 19</p>
         <p>Location: Bus Stop Theatre</p>
@@ -84,4 +85,5 @@
 
 <script setup lang="ts">
 import PageSection from './components/PageSection.vue';
+import C4Logo from './components/c4-Logo.vue';
 </script>

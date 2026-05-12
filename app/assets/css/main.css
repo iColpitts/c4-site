@@ -1,11 +1,28 @@
 @import "tailwindcss";
 
+@theme {
+    --color-lavender: #977EF2;
+    --color-lavender-light: #AC99F2;
+    --color-green: #82BF45;
+    --color-green-light: #E0F2CE;
+    --color-blue: #7083C2;
+    --color-blue-light: #EDFAFA;
+}
+
+html, body {
+    @apply bg-blue-light text-gray-800;
+    cursor: url('/cursor.ico'), auto;
+}
+
 /* Font Styles */
 h1 {
-    @apply text-4xl font-bold mb-4;
+    @apply text-4xl font-bold mb-4 text-blue;
+    font-family: "Major Mono Display", monospace;
 }
 h2 {
-    @apply text-3xl font-semibold mb-3;
+    @apply text-3xl font-semibold mb-3 text-blue;
+    font-family: "Major Mono Display", monospace;
+
 }
 h3 {
     @apply text-2xl font-medium mb-2;
