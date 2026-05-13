@@ -123,10 +123,11 @@
         programming including education, production and exhibition of games and other interactive media works.</p>
       <p>If you are interested in supporting our efforts or think that your work would be, please contact us for our
         sponsorship information: </p>
-      <p>Cat Bluemke </p>
-      <p>[email]</p>
-      <p>[phone]</p>
     </PageSection>
+    <BorderedSection>
+        <h3>Cat Bluemke </h3>
+        <p>executivedirector@cfat.ca</p>
+      </BorderedSection>
     <PageSection title="Media Outreach" subtitle="">
       <p>Notify the media that this incredible event will be happening, and they should be there!</p>
     </PageSection>
