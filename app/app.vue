@@ -2,7 +2,7 @@
   <div class="page-content">
     <div class="flex flex-col gap-4">
       <C4Logo />
-      <h3 class="text-center md:w-3xl mx-auto"><strong>C4 Art Games</strong> a celebration of the weird and wonderful
+      <h3 class="text-center md:w-3xl mx-auto">a celebration of the weird and wonderful
         possibility at the
         intersection of art and games!</h3>
     </div>
