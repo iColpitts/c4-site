@@ -15,6 +15,10 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Major Mono Display': true,
+      'Rubik Glitch': true,
+      'Rubik Pixels': true,
+      'Montserrat': true,
+      'Elms Sans': true,
     },
   },
 

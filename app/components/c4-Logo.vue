@@ -37,11 +37,9 @@ const letters = [
 <style scoped>
 @import "tailwindcss";
 .logo-container {
-    @apply pb-8;
+    @apply flex flex-row justify-between items-center justify-center;
   display: flex;
-  gap: 0.5rem;
   align-items: center;
-  justify-content: left;
 }
 
 .logo-letter {

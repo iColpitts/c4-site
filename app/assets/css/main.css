@@ -2,36 +2,43 @@
 
 @theme {
     --color-lavender: #977EF2;
-    --color-lavender-light: #AC99F2;
+    --color-lavender-light: #E8DFFF;
     --color-green: #82BF45;
     --color-green-light: #E0F2CE;
     --color-blue: #7083C2;
     --color-blue-light: #EDFAFA;
+    --color-blue-bright: #6843F0;
+    --color-grey: #474545;
 }
 
 html, body {
-    @apply bg-blue-light text-gray-800;
+    @apply text-gray-800 bg-blue-light min-h-screen;
     cursor: url('/cursor.ico'), auto;
+    font-family: 'Elms Sans', sans-serif;
 }
 
 /* Font Styles */
 h1 {
-    @apply text-4xl font-bold mb-4 text-blue;
+    @apply text-4xl mb-4 text-blue-bright;
     font-family: "Major Mono Display", monospace;
 }
 h2 {
-    @apply text-3xl font-semibold mb-3 text-blue;
+    @apply text-3xl mb-3 text-blue-bright;
     font-family: "Major Mono Display", monospace;
-
 }
 h3 {
     @apply text-2xl font-medium mb-2;
+    font-family: "Major Mono Display", monospace;
 }
 p {
     @apply text-lg mb-2;
 }
 
+strong {
+    @apply font-bold;
+}
+
 /* Page Styles */
 .page-content {
-    @apply max-w-3xl mx-auto px-4 py-36;
+    @apply mx-auto px-4 py-36 flex flex-col;
 }
