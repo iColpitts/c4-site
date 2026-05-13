@@ -9,8 +9,11 @@
         '--float-duration': `${letter.floatSpeed}s`,
         '--rotate-duration': `${letter.rotateSpeed}s`,
       }"
+      @mouseenter="letter.showText = true"
+      @mouseleave="letter.showText = false"
     >
       <img :src="letter.src" :alt="letter.name" />
+      <h2 v-show="letter.showText" class="letter-text pr-8">{{ letter.text }}</h2>
     </div>
   </div>
 </template>
@@ -26,12 +29,12 @@ const getRandomSpeed = (min: number, max: number) => {
   return Math.random() * (max - min) + min;
 };
 
-const letters = [
-  { name: 'C', src: letterC, floatSpeed: getRandomSpeed(4, 6), rotateSpeed: getRandomSpeed(0.8, 1) },
-  { name: '4', src: letter4, floatSpeed: getRandomSpeed(6, 10), rotateSpeed: getRandomSpeed(0.5, 0.6) },
-  { name: 'A', src: letterA, floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
-  { name: 'G', src: letterG, floatSpeed: getRandomSpeed(1, 4), rotateSpeed: getRandomSpeed(0.3, 0.6) },
-];
+const letters = ref([
+  { name: 'C', src: letterC, text: 'onference', floatSpeed: getRandomSpeed(4, 6), rotateSpeed: getRandomSpeed(0.8, 1), showText: false },
+  { name: '4', src: letter4, text: 'or', floatSpeed: getRandomSpeed(6, 10), rotateSpeed: getRandomSpeed(0.5, 0.6), showText: false },
+  { name: 'A', src: letterA, text: 'rt', floatSpeed: getRandomSpeed(2, 4), rotateSpeed: getRandomSpeed(0.3, 0.6), showText: false },
+  { name: 'G', src: letterG, text: 'ames', floatSpeed: getRandomSpeed(1, 4), rotateSpeed: getRandomSpeed(0.3, 0.6), showText: false },
+]);
 </script>
 
 <style scoped>
@@ -71,4 +74,18 @@ const letters = [
     transform: rotate(-5deg);
   }
 }
+
+.logo-letter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.letter-text {
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 </style>
