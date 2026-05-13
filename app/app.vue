@@ -34,7 +34,7 @@
       <p>This event is a space to showcase and support the growing games and interactive art community in Atlantic
         Canada.
         C4 looks at how games can be used as an expressive art medium and critical cultural objects. Hosted by the
-        Centre
+        <a href="https://cfat.ca/">Centre for Arts Tapes</a> (CFAT), C4 is a conference and exhibition that celebrates the weird
         for Arts Tapes, an inclusive artist-run centre that supports artists who use video, audio, and electronic media
         to
         express ideas and stories that are under-represented in mainstream culture.</p>

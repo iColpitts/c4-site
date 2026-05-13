@@ -38,6 +38,10 @@ strong {
     @apply font-bold;
 }
 
+a {
+    @apply underline text-blue hover:text-blue-bright;
+}
+
 /* Page Styles */
 .page-content {
     @apply mx-auto px-4 py-36 flex flex-col;
