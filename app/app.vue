@@ -2,7 +2,7 @@
   <div class="page-content">
     <div class="flex flex-col gap-4">
       <C4Logo />
-      <h3 class="text-center w-3xl mx-auto"><strong>C4 Art Games</strong> a celebration of the weird and wonderful
+      <h3 class="text-center md:w-3xl mx-auto"><strong>C4 Art Games</strong> a celebration of the weird and wonderful
         possibility at the
         intersection of art and games!</h3>
     </div>
@@ -69,11 +69,11 @@
     <BorderedSection>
       <div title="Schedule">
         <h3>Conference</h3>
-        <p>Call Open: May 25 - June 15</p>
+        <p>Call Open: May 29 - June 29</p>
       </div>
       <div title="Tickets">
         <h3>Exhibition</h3>
-        <p>On Sale July 2026</p>
+        <p>Call Open: June 12 - July 13</p>
       </div>
     </BorderedSection>
     <!-- <p>C4 welcomes talk submissions from both game makers and interactive artists from Atlantic Canada and beyond.</p>
