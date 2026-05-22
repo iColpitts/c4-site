@@ -18,7 +18,7 @@ const navItems = [
   { id: 'About', label: 'About' },
   { id: 'Submissions', label: 'Submissions' },
   { id: 'Sponsorship', label: 'Sponsors' },
-  { id: 'Media', label: 'Media' },
+  // { id: 'Media', label: 'Media' },
 ];
 
 const navRef = ref<HTMLElement | null>(null);
@@ -50,7 +50,7 @@ onBeforeUnmount(() => {
 
 .nav-bar {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
   padding: 1rem 0 2rem;
@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
 }
 
 .nav-bar--fixed {
-  @apply border-2;
+  @apply border-2 my-4;
   position: fixed;
   top: 1rem;
   left: 1rem;
