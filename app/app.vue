@@ -34,10 +34,12 @@
       <p>This event is a space to showcase and support the growing games and interactive art community in Atlantic
         Canada.
         C4 looks at how games can be used as an expressive art medium and critical cultural objects. Hosted by the
-        <a href="https://cfat.ca/">Centre for Arts Tapes</a> (CFAT), C4 is a conference and exhibition that celebrates the weird
+        <a href="https://cfat.ca/">Centre for Arts Tapes</a> (CFAT), C4 is a conference and exhibition that celebrates
+        the weird
         for Arts Tapes, an inclusive artist-run centre that supports artists who use video, audio, and electronic media
         to
-        express ideas and stories that are under-represented in mainstream culture.</p>
+        express ideas and stories that are under-represented in mainstream culture.
+      </p>
     </PageSection>
     <BorderedSection>
       <div title="Schedule">
@@ -50,6 +52,9 @@
       </div>
     </BorderedSection>
 
+    <div class="border-b-2 py-4 m-auto md:w-3xl flex justify-around ">
+      <EmailSignup />
+    </div>
     <!-- <PageSection title="Tickets" subtitle="">
       <p>Regular Ticket: $50</p>
       <p>CFAT Members: Free</p>
@@ -125,9 +130,9 @@
         sponsorship information: </p>
     </PageSection>
     <BorderedSection>
-        <h3>Cat Bluemke </h3>
-        <p>executivedirector@cfat.ca</p>
-      </BorderedSection>
+      <h3>Cat Bluemke </h3>
+      <p>executivedirector@cfat.ca</p>
+    </BorderedSection>
     <PageSection title="Media Outreach" subtitle="">
       <p>Notify the media that this incredible event will be happening, and they should be there!</p>
     </PageSection>
