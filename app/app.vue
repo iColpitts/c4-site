@@ -2,6 +2,7 @@
   <div class="page-content">
     <div class="flex flex-col gap-4">
       <C4Logo />
+      <NavBar />
       <h3 class="text-center md:w-3xl mx-auto">a celebration of the weird and wonderful
         possibility at the
         intersection of art and games!</h3>
@@ -30,7 +31,7 @@
       </Card>
     </div>
 
-    <PageSection title="About C4 Art Games" subtitle="">
+    <PageSection title="About C4 Art Games" subtitle="" id="About">
       <p>This event is a space to showcase and support the growing games and interactive art community in Atlantic
         Canada.
         C4 looks at how games can be used as an expressive art medium and critical cultural objects. Hosted by the
@@ -63,22 +64,26 @@
       <p>Exhibition: Free*</p>
       <p>*Donations for CFAT building initiative will be collected at the door</p>
     </PageSection> -->
-    <PageSection title="Call for Submissions" subtitle="">
+    <PageSection title="Call for Submissions" subtitle="" id="Submissions">
       <p>C4 builds off CFAT’s mission to put marginalized artists into the centre of discourses and practices of media
         art
         and as such, encourages artists and game makers from backgrounds not typically represented in mainstream games
         culture. We hope to support submissions which might not be valued in more traditional game conferences or art
         exhibitions.</p>
-      <p>We encourage those interested in submitting to both the conference and exhibition.</p>
+      <p>We encourage those interested in submitting to any combination of the conference, exhibition and zine library.</p>
     </PageSection>
     <BorderedSection>
       <div title="Schedule">
         <h3>Conference</h3>
-        <p>Call Open: May 29 - June 29</p>
+        <p>Call: May 29 - June 29</p>
       </div>
       <div title="Tickets">
         <h3>Exhibition</h3>
-        <p>Call Open: June 12 - July 13</p>
+        <p>Call: June 12 - July 13</p>
+      </div>
+      <div title="Tickets">
+        <h3>Zine Library</h3>
+        <p>Call: May 29 - August 25</p>
       </div>
     </BorderedSection>
     <!-- <p>C4 welcomes talk submissions from both game makers and interactive artists from Atlantic Canada and beyond.</p>
@@ -123,7 +128,7 @@
       <p>Bio (max 250 words)</p>
       <p>Names of the people involved in the project</p>
       <p>Link to zine description/documentation</p> -->
-    <PageSection title="Sponsorship & Community Partners" subtitle="">
+    <PageSection title="Sponsorship & Community Partners" subtitle="" id="Sponsorship">
       <p>We are looking for community partnerships and sponsors to support C4 Art Games as well as CFAT’s ongoing games
         programming including education, production and exhibition of games and other interactive media works.</p>
       <p>If you are interested in supporting our efforts or think that your work would be, please contact us for our
@@ -133,7 +138,7 @@
       <h3>Cat Bluemke </h3>
       <p>executivedirector@cfat.ca</p>
     </BorderedSection>
-    <PageSection title="Media Outreach" subtitle="">
+    <PageSection title="Media Outreach" subtitle="" id="Media">
       <p>Notify the media that this incredible event will be happening, and they should be there!</p>
     </PageSection>
   </div>
@@ -143,6 +148,7 @@
 import Card from './components/Card.vue';
 import PageSection from './components/PageSection.vue';
 import C4Logo from './components/c4-Logo.vue';
+import NavBar from './components/NavBar.vue';
 </script>
 
 <style scoped>
