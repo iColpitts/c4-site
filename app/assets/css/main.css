@@ -39,7 +39,7 @@ strong {
 }
 
 a {
-    @apply underline text-blue hover:text-blue-bright;
+    @apply underline text-blue-bright hover:text-black;
 }
 
 /* Page Styles */

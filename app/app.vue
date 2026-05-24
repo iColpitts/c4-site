@@ -77,7 +77,7 @@
         <h3>Submission Templates</h3>
         <p>Copy our sumbission template to get started!</p>
       </div>
-      <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4" onclick="window.open(`https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link`, '_blank', 'noreferrer')">Get Template's here!</button>
+      <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link`, '_blank', 'noreferrer')">Get Template's here!</button>
     </BorderedSection>
     <BorderedSection>
       <div title="Schedule">
