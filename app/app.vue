@@ -82,15 +82,18 @@
     <BorderedSection>
       <div title="Schedule">
         <h3>Conference</h3>
-        <p>Call: May 29 - June 29</p>
+        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/4b3f5Z9LXCui6yss7`, '_blank', 'noreferrer')">Conference Submission</button>
+        <p class="font-bold">Due: June 29</p>
       </div>
       <div title="Tickets">
         <h3>Exhibition</h3>
-        <p>Call: June 12 - July 13</p>
+        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/TJ9UjswxftvCMFEh9`, '_blank', 'noreferrer')">Exhibition Submission</button>
+        <p class="font-bold">Due: July 13</p>
       </div>
       <div title="Tickets">
         <h3>Zine Library</h3>
-        <p>Call: May 29 - August 25</p>
+        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/4cp67LcYSvrxGYxG6`, '_blank', 'noreferrer')">Zine Submission</button>
+        <p class="font-bold">Due: August 25</p>
       </div>
     </BorderedSection>
     <!-- <p>C4 welcomes talk submissions from both game makers and interactive artists from Atlantic Canada and beyond.</p>
