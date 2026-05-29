@@ -2,7 +2,7 @@
     <button 
         type="button"
         @click="onClick()" 
-        class="w-[calc(100%-2rem)] bg-blue-bright p-2 text-white font-bold hover:outline-solid hover:text-black hover:bg-blue-light cursor-pointer m-4">
+        class="w-full bg-blue-bright px-4 py-2 text-white font-bold hover:outline-solid hover:text-black hover:bg-blue-light cursor-pointer">
         <slot />
     </button>
 </template>
