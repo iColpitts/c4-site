@@ -72,27 +72,27 @@
         exhibitions.</p>
       <p>We encourage those interested in submitting to any combination of the conference, exhibition and zine library.</p>
     </PageSection>
-    <BorderedSection>
-      <div>
+    <BorderedSection class="flex">
+      <div class="flex-grow">
         <h3>Submission Templates</h3>
         <p>Copy our sumbission template to get started!</p>
       </div>
-      <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link`, '_blank', 'noreferrer')">Get Template's here!</button>
+      <CoolButton class="m-auto md:max-w-1/3" url="https://docs.google.com/document/d/1n9s8Xo2l7mLh0a3j5e5Zt6u9v8w3x4y5z6a7b8c9d0/edit?usp=sharing">Get Template's here!</CoolButton>
     </BorderedSection>
     <BorderedSection>
       <div title="Conference">
         <h3>Conference</h3>
-        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/4b3f5Z9LXCui6yss7`, '_blank', 'noreferrer')">Conference Submission</button>
+        <CoolButton url="https://forms.gle/4b3f5Z9LXCui6yss7">Conference Submission</CoolButton>
         <p class="font-bold">Due: June 29</p>
       </div>
       <div title="Exhibition">
         <h3>Exhibition</h3>
-        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/TJ9UjswxftvCMFEh9`, '_blank', 'noreferrer')">Exhibition Submission</button>
+        <CoolButton url="https://forms.gle/TJ9UjswxftvCMFEh9">Exhibition Submission</CoolButton>
         <p class="font-bold">Due: July 13</p>
       </div>
       <div title="Zine Library">
         <h3>Zine Library</h3>
-        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/4cp67LcYSvrxGYxG6`, '_blank', 'noreferrer')">Zine Submission</button>
+        <CoolButton url="https://forms.gle/4cp67LcYSvrxGYxG6">Zine Submission</CoolButton>
         <p class="font-bold">Due: August 25</p>
       </div>
     </BorderedSection>
