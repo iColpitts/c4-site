@@ -80,19 +80,19 @@
       <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link`, '_blank', 'noreferrer')">Get Template's here!</button>
     </BorderedSection>
     <BorderedSection>
-      <div title="Schedule">
+      <div title="Conference">
         <h3>Conference</h3>
-        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/4b3f5Z9LXCui6yss7`, '_blank', 'noreferrer')">Conference Submission</button>
+        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/4b3f5Z9LXCui6yss7`, '_blank', 'noreferrer')">Conference Submission</button>
         <p class="font-bold">Due: June 29</p>
       </div>
-      <div title="Tickets">
+      <div title="Exhibition">
         <h3>Exhibition</h3>
-        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/TJ9UjswxftvCMFEh9`, '_blank', 'noreferrer')">Exhibition Submission</button>
+        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/TJ9UjswxftvCMFEh9`, '_blank', 'noreferrer')">Exhibition Submission</button>
         <p class="font-bold">Due: July 13</p>
       </div>
-      <div title="Tickets">
+      <div title="Zine Library">
         <h3>Zine Library</h3>
-        <button type="button" class="outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer my-2 outline-2" onclick="window.open(`https://forms.gle/4cp67LcYSvrxGYxG6`, '_blank', 'noreferrer')">Zine Submission</button>
+        <button type="button" class="w-[calc(100%-2rem)] outline-dotted p-2 outline-dashed hover:outline-solid cursor-pointer m-4 outline-2" onclick="window.open(`https://forms.gle/4cp67LcYSvrxGYxG6`, '_blank', 'noreferrer')">Zine Submission</button>
         <p class="font-bold">Due: August 25</p>
       </div>
     </BorderedSection>
