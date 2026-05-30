@@ -33,13 +33,10 @@
 
     <PageSection title="About C4 Art Games" subtitle="" id="About">
       <p>This event is a space to showcase and support the growing games and interactive art community in Atlantic
-        Canada.
-        C4 looks at how games can be used as an expressive art medium and critical cultural objects. Hosted by the
-        <a href="https://cfat.ca/">Centre for Arts Tapes</a> (CFAT), C4 is a conference and exhibition that celebrates
-        the weird
-        for Arts Tapes, an inclusive artist-run centre that supports artists who use video, audio, and electronic media
-        to
-        express ideas and stories that are under-represented in mainstream culture.
+        Canada. C4 looks at how games can be used as an expressive art medium and critical cultural objects. Hosted by the
+        <a href="https://cfat.ca/">Centre for Arts Tapes</a> (CFAT), an inclusive artist-run centre that supports
+        artists who use video, audio, and electronic media to express ideas and stories that are under-represented in
+        mainstream culture.
       </p>
     </PageSection>
     <BorderedSection>
@@ -70,14 +67,18 @@
         and as such, encourages artists and game makers from backgrounds not typically represented in mainstream games
         culture. We hope to support submissions which might not be valued in more traditional game conferences or art
         exhibitions.</p>
-      <p>We encourage those interested in submitting to any combination of the conference, exhibition and zine library.</p>
+      <p>We encourage those interested in submitting to any combination of the conference, exhibition and zine library.
+      </p>
+      <p>Though our programming will prioritize opportunities for artists and gamemakers with connections to Atlantic Canada we welcome submissions from those based anywhere in the world. Though we can't support travel to the conference all accepted applicants will recieve a ticket to the event.</p>
     </PageSection>
-    <BorderedSection class="flex">
+    <BorderedSection class="flex" bottomBorder="false">
       <div class="flex-grow">
         <h3>Submission Templates</h3>
         <p>Copy our sumbission template to get started!</p>
       </div>
-      <CoolButton class="m-auto md:max-w-1/3" url="https://docs.google.com/document/d/1n9s8Xo2l7mLh0a3j5e5Zt6u9v8w3x4y5z6a7b8c9d0/edit?usp=sharing">Get Template's here!</CoolButton>
+      <CoolButton class="m-auto md:max-w-1/3"
+        url="https://docs.google.com/document/d/1n9s8Xo2l7mLh0a3j5e5Zt6u9v8w3x4y5z6a7b8c9d0/edit?usp=sharing">Get
+        Template's here!</CoolButton>
     </BorderedSection>
     <BorderedSection>
       <div title="Conference">
@@ -96,48 +97,6 @@
         <p class="font-bold">Due: August 25</p>
       </div>
     </BorderedSection>
-    <!-- <p>C4 welcomes talk submissions from both game makers and interactive artists from Atlantic Canada and beyond.</p>
-      <p>We are looking for panel ideas as well as 15-30 minute talk submissions. Topics can be expansive and we hope to
-        include as much of them as we can:</p>
-      <ul>
-        <li>Thoughts on the unique expressive possibility of games</li>
-        <li>Critical play</li>
-        <li>Game Engine effects on art game development</li>
-        <li>Climate aware game development</li>
-        <li>Game co-operative and collective action</li>
-        <li>Political engagement in games</li>
-        <li>Games as exploration of social rules</li>
-        <li>A weird and highly specific thought that guide your art game practice</li>
-        <li>… And whatever else you think would be cool to see at the conference</li>
-      </ul>
-      <p>To submit a talk or panel to C4, please fill out the Submission Form below by June 1, 2026</p>
-      <h4>Submission Form</h4>
-      <p>Name</p>
-      <p>Pronouns</p>
-      <p>Bio (max 250 words)</p>
-      <p>A brief description of your proposed talk and or panel (max 500 words)</p>
-      <p>If a panel, names of panelists</p>
-      <p>Link so we can see your work</p>
-      <h3>Exhibition</h3>
-      <p>We hope to showcase a wide range of what a game can be. We are happy to show both digital or analogue games as
-        well
-        as art that looks at games/gaming and its cultural impact.</p>
-      <p>To submit a game (analogue or digital), VR/AR experience, or any other art work to C4, please fill out the
-        Submission Form below by June 15, 2026.</p>
-      <h4>Submission Form</h4>
-      <p>Name</p>
-      <p>Pronouns</p>
-      <p>Bio (max 250 words)</p>
-      <p>A brief description of your game (max 500 words)</p>
-      <p>Names of the people involved in the project</p>
-      <p>Links to work of the people involved</p>
-      <p>Link to a build we can play and/or documentation of the work</p>
-      <h3>Zine Library</h3>
-      <p>Name</p>
-      <p>Pronouns</p>
-      <p>Bio (max 250 words)</p>
-      <p>Names of the people involved in the project</p>
-      <p>Link to zine description/documentation</p> -->
     <PageSection title="Sponsorship & Community Partners" subtitle="" id="Sponsorship">
       <p>We are looking for community partnerships and sponsors to support C4 Art Games as well as CFAT’s ongoing games
         programming including education, production and exhibition of games and other interactive media works.</p>

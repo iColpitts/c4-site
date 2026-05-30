@@ -22,5 +22,8 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/google-fonts"],
+  modules: [
+    "@nuxtjs/google-fonts",
+    ['nuxt-gtag', { id: 'G-C4VTV28NGP' }],
+  ],
 });
