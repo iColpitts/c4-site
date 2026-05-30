@@ -50,9 +50,9 @@
       </div>
     </BorderedSection>
 
-    <div class="border-b-2 py-4 m-auto md:w-3xl flex justify-around ">
+    <!-- <div class="border-b-2 py-4 m-auto md:w-3xl flex justify-around ">
       <EmailSignup />
-    </div>
+    </div> -->
     <!-- <PageSection title="Tickets" subtitle="">
       <p>Regular Ticket: $50</p>
       <p>CFAT Members: Free</p>
@@ -77,7 +77,7 @@
         <p>Copy our sumbission template to get started!</p>
       </div>
       <CoolButton class="m-auto md:max-w-1/3"
-        url="https://docs.google.com/document/d/1n9s8Xo2l7mLh0a3j5e5Zt6u9v8w3x4y5z6a7b8c9d0/edit?usp=sharing">Get
+        url="https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link">Get
         Template's here!</CoolButton>
     </BorderedSection>
     <BorderedSection>
