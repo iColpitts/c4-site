@@ -84,7 +84,7 @@
       <div title="Conference">
         <h3>Conference</h3>
         <CoolButton url="https://forms.gle/4b3f5Z9LXCui6yss7">Conference Submission</CoolButton>
-        <p class="font-bold">Due: June 29</p>
+        <p class="font-bold">Due: <span class="text-decoration-line">June 29</span> July 13</p>
       </div>
       <div title="Exhibition">
         <h3>Exhibition</h3>
