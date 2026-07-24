@@ -78,7 +78,7 @@
         <h3>Submission Templates</h3>
         <p>Copy our sumbission template to get started!</p>
       </div>
-      <CoolButton class="m-auto md:max-w-1/3"
+      <CoolButton class="m-auto"
         url="https://drive.google.com/drive/folders/159r6lMEBy5z7j54A4b9omzhB9fPm2I7U?usp=drive_link">Get
         Template's here!</CoolButton>
     </BorderedSection>
