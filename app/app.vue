@@ -46,7 +46,9 @@
       </div>
       <div title="Tickets">
         <h3>Tickets</h3>
-        <p>On Sale July 2026</p>
+        <CoolButton class="m-auto md:max-w-1/3"
+        url="https://www.zeffy.com/en-CA/organizations/centre-for-art-tapes">
+        On Sale Now</CoolButton>
       </div>
     </BorderedSection>
 
