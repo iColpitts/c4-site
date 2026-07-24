@@ -3,7 +3,7 @@
     <a
       v-for="item in navItems"
       :key="item.id"
-      :href="`#${item.id}`"
+      :href="`${item.link ? item.link : '#'+item.id}`"
       class="nav-link"
     >
       {{ item.label }}
@@ -18,6 +18,7 @@ const navItems = [
   { id: 'About', label: 'About' },
   { id: 'Submissions', label: 'Submissions' },
   { id: 'Sponsorship', label: 'Sponsors' },
+  { id: 'Tickets', label: 'Tickets', link: 'https://www.zeffy.com/en-CA/organizations/centre-for-art-tapes'},
   // { id: 'Media', label: 'Media' },
 ];
 
