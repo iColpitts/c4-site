@@ -15,9 +15,9 @@
 import { ref, onMounted, onBeforeUnmount } from 'vue';
 
 const navItems = [
-  { id: 'About', label: 'About' },
-  { id: 'Submissions', label: 'Submissions' },
-  { id: 'Sponsorship', label: 'Sponsors' },
+  { id: 'About', label: 'About', link:'/#About' },
+  { id: 'Program', label: 'Program', link: '/program' },
+  { id: 'Sponsorship', label: 'Sponsors', link: '/#Sponsorship' },
   { id: 'Tickets', label: 'Tickets', link: 'https://www.zeffy.com/en-CA/organizations/centre-for-art-tapes'},
   // { id: 'Media', label: 'Media' },
 ];
