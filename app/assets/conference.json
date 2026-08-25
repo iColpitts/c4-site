@@ -15,7 +15,7 @@
   {
     "Title": "Max Inferno Keynote Talk",
     "Time": "10:10 AM",
-    "Duration": "24 min",
+    "Duration": "25 min",
     "Presenter": [{
         "Name": "Annie McMillan",
         "Bio": ""
@@ -52,9 +52,6 @@
         "Name": "Emily Flinn",
         "Bio": "Emily Flinn is a Vietnamese Canadian interdisciplinary artist working in traditionally analogue mediums—oil painting, various printmaking techniques, and drawing materials. Currently, she is experimenting with media art mediums, in particular video games, and mixing her love of analogue mediums with her personal history and experience of growing up in a digital age. Flinn imbues her work with exeriences of the liminality and ambiguity she feels from her cultural identity and lived experiences. Though she explores personal subject matter and experiences that are oftentimes heavy, Flinn values adding a sense of humour, striking a balance of thoughtfulness and playful warmth. She is interested in themes pertaining to the physicality of the body, permanence versus temporality in physical space, and how these ideas both interact with memory and identity."
     },{
-        "Name": "Dustin Harvey",
-        "Bio": "Dustin Harvey is a Dartmouth-based artist working across film, theatre, and immersive performance. He is the founder of XOSECRET, where he creates participatory and site-responsive works presented across Canada and internationally. His work includes ALONE TOGETHER, a mobile app performance presented by SXSW, IDFA DocLab, MIT Docubase, and Belfast XR. His current mixed-reality project, AWAKE & STILL DROWNING, was presented at the Guanajuato International Film Festival, where it received the Best VR Experience award.\n\nAcross his work, Dustin is interested in what happens when an audience is given something to do: a simple instruction, a role to play, a place to go, or another person to pay attention to."
-    },{
         "Name": "Derek Reilly",
         "Bio": "Derek Reilly is co-director of the Graphics and Experiential Media Lab within Dalhousie University‘s Faculty of Computer Science. They conduct research in the areas of mobile, ubiquitous, and embodied interaction, gaming and new media, mixed/virtual/augmented reality, and visualization.\nThey prioritise fun, playful explorations of new interaction modalities and novel scenarios for interaction with digital media and systems.  A major goal of the lab is to establish interactive techniques, paradigms, and toolkits that help designers of interactive systems consider the physical environment and our lived experience in these environments."
     }]
@@ -65,31 +62,37 @@
     "Duration": "1 h"
   },
   {
-    "Title": "Intimacy of local history",
+    "Title": "Interactions with Local Lore",
     "Time": "2:00 PM",
     "Duration": "1 h",
     "Presenter": [{
         "Name": "Ariella Pahlke",
+        "Bio":""
+    },{
+        "Name": "Dustin Harvey",
+        "Bio": "Dustin Harvey is a Dartmouth-based artist working across film, theatre, and immersive performance. He is the founder of XOSECRET, where he creates participatory and site-responsive works presented across Canada and internationally. His work includes ALONE TOGETHER, a mobile app performance presented by SXSW, IDFA DocLab, MIT Docubase, and Belfast XR. His current mixed-reality project, AWAKE & STILL DROWNING, was presented at the Guanajuato International Film Festival, where it received the Best VR Experience award.\n\nAcross his work, Dustin is interested in what happens when an audience is given something to do: a simple instruction, a role to play, a place to go, or another person to pay attention to."
+    },
+    {
+      "Name": "ray",
+      "Bio": "Ray (they/them) is an artist and cultural worker based in Montreal. Their work includes interactive media, coded websites, zines, and community-engaged projects. Ray focuses on building work that emphasizes intimacy, care, and accessibility, and explores how technology shapes emotional and social life.\n\nThey use DIY and poetic coding methods to create small interactive tools and participatory experiences. Ray’s background in facilitation, social practice and public programming informs their collaborative approach to working with communities and collectives. 🌀 learning → making → teaching as a spiral.",
+    }]
+  },{
+    "Title": "Cyborg Games",
+    "Time": "2:00 PM",
+    "Duration": "25 mins",
+    "Presenter": [{
+        "Name": "Lee Wilkins",
         "Bio":""
     }]
   },
   {
     "Title": "Break",
     "Time": "3:00 PM",
-    "Duration": "5 mins"
-  },
-  {
-    "Title": "Cyborg Games",
-    "Time": "3:15 PM",
-    "Duration": "25 mins",
-    "Presenter": [{
-        "Name": "Lee Wilkins",
-        "Bio": ""
-    }]
+    "Duration": "30 mins"
   },
   {
     "Title": "A million mom games",
-    "Time": "3:40 PM",
+    "Time": "3:30 PM",
     "Duration": "25 mins",
     "Presenter": [{
         "Name": "Sabrina Doiron",
@@ -99,7 +102,7 @@
   },
   {
     "Title": "The Browser is Already a Game Engine: an invitation",
-    "Time": "4:05 PM",
+    "Time": "3:55 PM",
     "Duration": "25 min",
     "Presenter": [{
         "Name": "Everest Pipkin",
@@ -110,7 +113,13 @@
   },
   {
     "Title": "Question Period",
-    "Time": "4:30 PM",
+    "Time": "4:20 PM",
     "Duration": "15 mins"
+  },{
+    "Title": "Closing Remarks",
+    "Time": "4:35 PM",
+    "Presenter": [{
+        "Name": "C4 Team"
+    }]
   }
 ]
